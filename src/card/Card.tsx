@@ -14,14 +14,19 @@ const Card = ({ name }: CardProps) => {
 
 const styles = {
 	wrapper: {
-		width: '150px',
-		height: '150px',
-		padding: '10px',
+		color: '#6B5FF0',
+		fontWeight: 600,
+		fontSize: '24px',
+
 		display: 'flex',
 		justifyContent: 'center',
 		alignItems: 'center',
+		width: '150px',
+		height: '150px',
+		padding: '10px',
 		borderRadius: '8px',
-		background: 'white',
+		border: '3px solid',
+		borderColor: '#6B5FF0',
 	},
 }
 

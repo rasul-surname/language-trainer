@@ -13,6 +13,9 @@ const Home = () => {
 				<a
 					key={idx}
 					href={link}
+					style={{
+						textDecoration: 'none',
+					}}
 				>
 					<Card name={name} />
 				</a>
